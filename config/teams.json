@@ -1,0 +1,54 @@
+{
+  "it": {
+    "title": "Team IT",
+    "desc": "Legg inn henvendelser, bestillinger, tilgang osv til IT.",
+    "icon": "computer",
+    "link": "team/it",
+    "cards": [
+      {
+        "icon": "message",
+        "title": "Legg inn henvendelse",
+        "desc": "Legg inn henvendelse til team-IT.",
+        "link": "https://cs.t-fk.no/scripts/customer.exe?_sf=0&customerLang=tfk&noCookies=true&action=newTicket&topCategoryId=103"
+      },
+      {
+        "icon": "add_shopping_cart",
+        "title": "Bestilling av utstyr",
+        "desc": "Bestilling av diverse IT-utstyr.",
+        "link": "https://cs.t-fk.no/scripts/customer.exe?action=safeParse&includeId=nyttUstyr&key=public&withFrame=true&customerLang=tfk"
+      },
+      {
+        "icon": "assignment_ind",
+        "title": "Bestilling av tilgang",
+        "desc": "Bestilling av tilgang til eller avgang fra IT-løsninger i forbindelse med ansettelser eller når ansatte slutter.",
+        "link": "https://cs.t-fk.no/scripts/customer.exe?action=safeParse&includeId=tilgang&key=tilgang&withFrame=true&customerLang=tfk"
+      },
+      {
+        "icon": "record_voice_over",
+        "title": "Status henvendelser",
+        "desc": "Sjekk status på dine IT-henvendelser.",
+        "link": "https://cs.t-fk.no/scripts/customer.exe?_sf=0&customerLang=tfk&noCookies=true&action=listTickets"
+      },
+      {
+        "icon": "format_align_justify",
+        "title": "Dokumenter",
+        "desc": "Styringsdokumenter, og rutiner.",
+        "link": "https://rom.t-fk.no/servicetorget/IT-Hjelp/_layouts/15/start.aspx#/Delte%20dokumenter/Forms/AllItems.aspx"
+      }
+    ]
+  },
+  "arkiv": {
+    "title": "Team arkiv",
+    "desc": "Legg inn henvendelser, tilgangsforespørsler osv til arkiv.",
+    "icon": "attach_file",
+    "link": "https://cs.t-fk.no/scripts/customer.exe?_sf=0&customerLang=tfk&noCookies=true&action=newTicket&topCategoryId=102",
+    "cards": []
+  },
+  "kommunikasjon": {
+    "title": "Team kommunikasjon",
+    "desc": "Legg inn henvendelser til kommunikasjon.",
+    "icon": "call",
+    "link": "https://cs.t-fk.no/scripts/customer.exe?_sf=0&customerLang=tfk&noCookies=true&action=newTicket&topCategoryId=109",
+    "cards": []
+  }
+}

@@ -1,0 +1,17 @@
+{{#each cards}}
+  <div class="mdl-cell mdl-cell--4-col">
+  <a href="{{link}}" class="mdl-navigation__link">
+  <div class="card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+  <h2 class="mdl-card__title-text">{{title}}</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+  {{desc}}
+  </div>
+  <div class="mdl-card__menu">
+  <i class="material-icons">{{icon}}</i>
+  </div>
+  </a>
+  </div>
+  </div>
+{{/each}}
