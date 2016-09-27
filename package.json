@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "handlebars": "4.0.5",
-    "hapi": "15.0.3",
+    "hapi": "15.1.0",
     "inert": "4.0.2",
     "vision": "4.1.0"
   }
