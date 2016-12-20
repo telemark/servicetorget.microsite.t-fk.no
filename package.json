@@ -1,7 +1,7 @@
 {
   "name": "servicetorget.microsite.t-fk.no",
   "description": "Servicetorget",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "author": {
     "name": "Jonas Enge",
