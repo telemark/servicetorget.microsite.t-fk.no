@@ -43,7 +43,7 @@
     ]
   },
   "now": {
-    "alias": "servicetorget.next.t-fk.no",
+    "alias": "servicetorget.next.t-fk.no"
   },
   "devDependencies": {
     "coveralls": "2.13.0",
