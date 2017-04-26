@@ -19,7 +19,7 @@
       },
       {
         "icon": "assignment_ind",
-        "title": "Bestilling av tilgang",
+        "title": "Bestilling av tilgang eller avgang",
         "desc": "Bestilling av tilgang til eller avgang fra IT-løsninger i forbindelse med ansettelser eller når ansatte slutter.",
         "link": "https://cs.t-fk.no/scripts/customer.exe?action=safeParse&includeId=tilgang&key=tilgang&withFrame=true&customerLang=tfk"
       },
