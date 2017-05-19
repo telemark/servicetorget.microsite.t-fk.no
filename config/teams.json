@@ -12,8 +12,14 @@
         "link": "https://cs.t-fk.no/scripts/customer.exe?_sf=0&customerLang=tfk&noCookies=true&action=newTicket&topCategoryId=103"
       },
       {
+        "icon": "smartphone",
+        "title": "Bestilling av mobiltelefon",
+        "desc": "Bestilling av mobiltelefon.",
+        "link": "https://cs.site.t-fk.no"
+      },
+      {
         "icon": "add_shopping_cart",
-        "title": "Bestilling av utstyr",
+        "title": "Bestilling av annet utstyr",
         "desc": "Bestilling av diverse IT-utstyr.",
         "link": "https://cs.t-fk.no/scripts/customer.exe?action=safeParse&includeId=nyttUstyr&key=public&withFrame=true&customerLang=tfk"
       },
