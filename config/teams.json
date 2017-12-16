@@ -9,7 +9,7 @@
         "icon": "message",
         "title": "Legg inn henvendelse",
         "desc": "Legg inn henvendelse til team-IT.",
-        "link": "http://it-cs.telemark-fk.no/scripts/customer.fcgi?action=safeParse&includeId=new-ticket-tfk&key=public"
+        "link": "https://cs.t-fk.no/scripts/customer.exe?_sf=0&customerLang=tfk&noCookies=true&action=newTicket&topCategoryId=103"
       },
       {
         "icon": "smartphone",
