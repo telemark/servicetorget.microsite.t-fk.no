@@ -1,33 +1,12 @@
-###########################################################
-#
-# Dockerfile for servicetorget.microsite.t-fk.no
-#
-###########################################################
+FROM mhart/alpine-node:10 as base
+WORKDIR /usr/src
+COPY package.json package-lock.json /usr/src/
+RUN npm i --production
+COPY . .
 
-# Setting the base to nodejs 4.5.0
-FROM mhart/alpine-node:4.9.1@sha256:c47433a256be0bc5314eb8288ea8fae7466d283d91f1da7ff950f91e43838b33
-
-# Maintainer
-MAINTAINER Geir Gåsodden
-
-#### Begin setup ####
-
-# Installs git
-RUN apk add --update git && rm -rf /var/cache/apk/*
-
-# Bundle app source
-COPY . /src
-
-# Change working directory
-WORKDIR "/src"
-
-# Install dependencies
-RUN npm install --production
-
-# Env variables
+FROM mhart/alpine-node:base-10
+WORKDIR /usr/src
+COPY --from=base /usr/src .
 ENV SERVICETORGET_SERVER_PORT 8000
-
 EXPOSE 8000
-
-# Startup
-ENTRYPOINT node standalone.js
+CMD ["node", "standalone.js"]
