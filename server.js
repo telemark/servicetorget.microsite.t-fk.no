@@ -12,9 +12,9 @@ server.connection({
 })
 
 const plugins = [
-  {register: vision},
-  {register: inert},
-  {register: appService}
+  { register: vision },
+  { register: inert },
+  { register: appService }
 ]
 
 server.register(plugins, error => {
